@@ -75,6 +75,9 @@
     justify-content: center;
     align-items: center;
 }
+.navbarimg img{
+    width: 70%;
+}
 .navbartext{
     width: 45%;
     display: flex;
@@ -406,4 +409,157 @@
 }
 .section li:hover{
     color: white;
+}
+@media screen and (max-width:900px) {
+    .navbar{
+        height: fit-content;
+    }
+    .navbar1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .list{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar2{    
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .navbarimg img{
+        width: 95%;
+    }
+    .navbartext1 , .navbartext2 , .navbartext3 {
+        width:fit-content;
+        margin: 2px;
+    }
+    .main-content{
+        height: fit-content;        
+    }
+    .mctext1{
+        width: 100vw;
+        font-size: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .mctext2{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .mcimg{
+        justify-content: center;
+        display: flex;
+    }
+    .mcimg img{
+        width: 80%;
+        height: 50%;        
+    }
+    .main-content2{
+        height: fit-content;
+    }
+    .mc2text1{
+        width: 100vw;
+        font-size: 20px;
+    }
+    .mctext2{
+        height: fit-content;                
+    }
+    .mc2card{
+        flex-direction: column;
+        height: fit-content;
+        border: 1px solid #1e1e1e;
+        border-radius: 8px;
+        padding: 5px;
+        margin: 1%;
+    }
+    .cardtext{
+        width: fit-content;
+        height: 50%;
+    }
+    .cardtxt1 , .cardtxt2 , .cardbtn{
+        margin: auto;
+        margin: 1%;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardimg{
+        width: 100vw;
+    }
+    .cardimg img{
+        width: 90%;
+        padding: 10px;
+    }
+    .main-content3{
+        height: fit-content;  
+        padding: 10px;      
+    }
+    .mc3text1{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        padding: 10px;
+    }
+    .mc3text1 div{        
+        height: 50%;
+    }
+    .mc3text2{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .mc3card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 5%;
+    }
+    .mc3cardtext{
+        margin: 2%;
+    }
+    .footer{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+    }
+    .ficons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .flogo{
+        width: 30%;
+        margin: 2%;
+        justify-content: center;
+    }
+    .fsocial{        
+        width: 30%;
+        margin: 2%;
+        justify-content: center;
+    }
+    .otherservices{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .section{
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:flex-start;
+        width: 40%;
+    }
 }
